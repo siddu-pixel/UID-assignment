@@ -1,0 +1,195 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f2f2f2;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background:darkblue;
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px;
+}
+
+.navbar ul{
+    display:flex;
+    list-style:none;
+}
+
+.navbar li{
+    margin:10px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+}
+
+/* BANNER */
+
+.banner{
+    background:orange;
+    color:white;
+
+    text-align:center;
+    padding:60px;
+}
+
+/* TITLES */
+
+.title{
+    text-align:center;
+    margin-top:30px;
+}
+
+/* TEAMS */
+
+.teams{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+
+    width:220px;
+    margin:15px;
+    padding:20px;
+
+    text-align:center;
+
+    border-radius:10px;
+
+    box-shadow:0px 0px 5px gray;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+/* MATCHES */
+
+.matches{
+    text-align:center;
+    margin-top:30px;
+}
+
+.match-card{
+    background:white;
+
+    width:300px;
+
+    margin:10px auto;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    box-shadow:0px 0px 5px gray;
+}
+
+/* FOOTER */
+
+footer{
+    background:darkblue;
+    color:white;
+
+    text-align:center;
+
+    padding:15px;
+
+    margin-top:30px;
+}
+
+/* SMOOTH SCROLL */
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* PLAYER STATS */
+
+.stats-section{
+    padding:40px 20px;
+}
+
+.stats-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.stats-card{
+    background:white;
+    width:260px;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.stats-card:hover{
+    transform:translateY(-10px);
+}
+
+.stats-card img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin:15px 0;
+}
+
+.stats-card h3{
+    color:#001f5c;
+    margin-bottom:10px;
+}
+
+.stats-card h4{
+    margin-bottom:10px;
+}
+
+/* NEWS SECTION */
+
+.news-section{
+    padding:40px 20px;
+}
+
+.news-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+.news-card{
+    width:80%;
+    background:white;
+    padding:20px;
+    border-left:6px solid #001f5c;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.news-card:hover{
+    transform:scale(1.02);
+}
+
+.news-card h3{
+    margin-bottom:10px;
+    color:#001f5c;
+}
